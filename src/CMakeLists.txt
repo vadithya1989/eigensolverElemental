@@ -1,5 +1,5 @@
-add_library(eigenValueSolver eigenValueSolver.cpp)
-add_executable(main main.cpp utils.cpp )
+add_library(eigenValueSolver eigenValueSolver.cc)
+add_executable(main main.cc utils.cc )
 
 target_include_directories(eigenValueSolver
   PUBLIC
